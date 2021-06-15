@@ -1,0 +1,8 @@
+schemaVersion: 2.1.0
+metadata:
+  name: new-ol-version
+  description: Child devfile to test OL version updating
+parent:
+  uri: "./devfile.yaml"
+  variables:
+    stack-image: "maven:3.6-adoptopenjdk-11-openj9"

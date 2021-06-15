@@ -1,0 +1,8 @@
+schemaVersion: 2.1.0
+metadata:
+  name: new-ol-version
+  description: Child devfile to test OL version updating
+parent:
+  uri: "./devfile.yaml"
+  variables:
+    openliberty-version: "21.0.0.4"
